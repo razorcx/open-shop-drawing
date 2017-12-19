@@ -9,7 +9,7 @@ namespace OpenShopDrawing
 		{
 			try
 			{
-				new ShopDrawingManager().Run();
+				new ShopDrawingManager().OpenDrawing();
 			}
 			catch (Exception ex)
 			{

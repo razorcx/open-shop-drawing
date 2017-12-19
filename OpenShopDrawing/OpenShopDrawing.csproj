@@ -81,9 +81,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssemblyDrawingManager.cs" />
+    <Compile Include="DrawingManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShopDrawingManager.cs" />
+    <Compile Include="SingleDrawingManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
