@@ -3,13 +3,13 @@ using System.Diagnostics;
 
 namespace OpenShopDrawing
 {
-	public partial class Program
+	public class Program
 	{
 		public static void Main(string[] args)
 		{
 			try
 			{
-				OpenShopDrawing.Run();
+				new ShopDrawingManager().Run();
 			}
 			catch (Exception ex)
 			{
